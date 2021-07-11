@@ -1,0 +1,140 @@
+.banner
+    position: relative
+    background-image: url(../../imagenes-web/heroverdeopole4.jpg)
+    min-height: 100vh
+    background-size: cover
+    background-position: center
+    //padding: 300px 0 200px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+        //efecto parallax
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    
+
+.banner:before
+    content: ""
+    width: 100%
+    min-height: 100vh
+    background-color: #000000de
+    opacity: 0.95
+    position: absolute
+
+  
+
+
+.banner
+        h4
+            margin-top: 10vh
+            font-size: 1.6rem
+            font-weight: 200
+            color: #FEE800
+        h1
+            margin: 0
+            font-family: $Poppins
+            font-weight: 700
+            font-size: 55px
+            line-height: 1.2em
+            
+
+        h2
+            margin: 0
+            font-family: $Poppins
+            font-weight: 700
+            font-size: 3.5rem
+            color: #f8e7a6
+            
+
+    
+        p
+            padding: 1rem 0
+            color: #f0f0f0
+            font-weight: 400
+            font-size: 17px
+            line-height: 1.8rem
+            font-family: $Roboto
+            margin-right: 25px
+
+            
+        .btn
+            color: #fff
+            font-family: $Poppins
+            font-size: 1.3em
+            font-weight: 700
+            background: transparent
+            border-style: $colorglobal
+            text-decoration-color: #fff
+            min-width: 200px
+            size: large
+            min-height: 60px
+            border-radius: 5vh
+            box-decoration-break: none
+            border-color: $colorglobal
+            transition: 500ms
+            box-shadow: 0 0 0 rgba(0,0 ,0 ,0 )
+            display: inline
+
+        .btn:hover
+            background-color: $colorglobal
+            transition: 500ms
+
+
+
+header
+    position: absolute
+    z-index: 10
+    width: 100%
+    color: #000
+    
+.navbar
+    padding: 20px 0
+    color: #ED282B
+
+.navbar-brand
+    font-weight: 700
+    font-family: $Poppins
+    font-size: 2em
+    //color: #ED282B !important
+
+.nav-item
+    font-weight: 300
+    font-size: 1em
+    margin: 0 1rem
+    font-family: $Roboto
+    color: #FFFFFF
+    transition: 300ms
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link
+    color: #FEE800
+    transition: 300ms
+
+.navbar-light .navbar-nav .nav-item .nav-link
+    padding: 5px 15px
+    font-size: 1.1em
+    font-family: $Poppins
+    font-weight: 700
+    color: #FFFFFF
+    transition: 300ms
+
+.navbar-light .navbar-toggler
+    border: none
+    color: #FFFFFF
+    border: 2px solid #7f7f7f
+    border-radius: 2
+    outline: none
+
+#wiecej
+    border-radius: 30px
+    padding: 10px 30px
+
+@media screen and (max-width: 768px)
+    #server-name
+        left: 80%
+    
+
+            
